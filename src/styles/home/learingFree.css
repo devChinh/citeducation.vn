@@ -1,0 +1,37 @@
+.learningFree-container {
+    padding: 0 5vw;
+    margin-top: 50px;
+}
+
+.learningFree-container h1 {
+    color: #1F409A;
+    font-size: 32px;
+    font-weight: 600;
+    border-left: 4px solid #37C5F4;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.learningFree-iframes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learningFree-iframes iframe {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .learningFree-container h1 {
+        margin-bottom: 20px;
+    }
+
+    .learningFree-iframes {
+        flex-direction: column;
+    }
+
+    .learningFree-iframes iframe {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
